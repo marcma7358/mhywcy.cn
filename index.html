@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>马翰元 ❤️ 王彩雨 · 七周年</title>
+    <meta name="theme-color" content="#ff8fb1" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <meta name="description" content="马翰元与王彩雨 · 恋爱七周年纪念网页" />
+</head>
+<body>
+    <div id="bg"></div>
+    <main class="container">
+        <header class="hero">
+            <h1>马翰元 ❤ 王彩雨</h1>
+            <p class="subtitle">七年之约 · 2018.8.19 — 2025.8.19</p>
+
+            <div class="countup">
+                <span>我们已经相爱</span>
+                <div id="timeCounters">
+                    <span id="days" class="num"></span><span class="unit">天</span>
+                    <span id="hours" class="num"></span><span class="unit">小时</span>
+                    <span id="minutes" class="num"></span><span class="unit">分钟</span>
+                    <span id="seconds" class="num"></span><span class="unit">秒</span>
+                </div>
+            </div>
+
+            <a href="#story" class="btn">进入我们的故事</a>
+        </header>
+
+        <section id="story" class="section">
+            <h2>我们的故事</h2>
+            <ul class="timeline">
+                <li>
+                    <h3>第一年</h3>
+                    <p>第一次牵手的心跳，像夏夜的风，悄悄吹进心里。</p>
+                </li>
+                <li>
+                    <h3>第二年</h3>
+                    <p>一起走过的街角，都被记忆点亮。</p>
+                </li>
+                <li>
+                    <h3>第三年</h3>
+                    <p>学会了包容与理解，也学会了更坚定地拥抱彼此。</p>
+                </li>
+                <li>
+                    <h3>第四年</h3>
+                    <p>照片越拍越多，思念也越积越甜。</p>
+                </li>
+                <li>
+                    <h3>第五年</h3>
+                    <p>把日子过成诗，句句都有你。</p>
+                </li>
+                <li>
+                    <h3>第六年</h3>
+                    <p>风吹雨打都不怕，因为你是我的家。</p>
+                </li>
+                <li>
+                    <h3>第七年</h3>
+                    <p>时间为证，爱意长流。七年，是序章，更是新的开始。</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="sketch" class="section">
+            <h2>我们的剪影</h2>
+            <div class="sketch-wrap">
+                <svg class="sketch-couple" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" aria-label="简笔画情侣">
+                    <defs>
+                        <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#ff8fb1"/>
+                            <stop offset="100%" stop-color="#ff4d6d"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- 两个头部 -->
+                    <circle cx="110" cy="70" r="22" fill="none" stroke="url(#g)" stroke-width="3"/>
+                    <circle cx="210" cy="70" r="22" fill="none" stroke="url(#g)" stroke-width="3"/>
+                    <!-- 身体与拥抱 -->
+                    <path d="M95 95 C 95 140, 140 150, 160 150 C 180 150, 225 140, 225 95" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M125 95 C 130 120, 145 125, 160 128 C 175 125, 190 120, 195 95" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+                    <!-- 牵手 -->
+                    <path d="M140 132 Q 160 140 180 132" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+                    <!-- 心形 -->
+                    <path d="M158 48 C 158 42, 165 40, 168 45 C 171 40, 178 42, 178 48 C 178 55, 168 60, 168 60 C 168 60, 158 55, 158 48 Z" fill="#ff6b8a" fill-opacity="0.85"/>
+                    <!-- 地面线 -->
+                    <path d="M40 170 Q 160 190 280 170" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </section>
+
+        <section id="wishes" class="section">
+            <h2>写给未来</h2>
+            <p>愿与你看尽人间烟火，也愿每个清晨醒来，都能看到彼此的笑。</p>
+        </section>
+
+        <footer>
+            <button id="playFireworks" class="btn secondary">撒点小心心</button>
+            <p class="copy">© 2018–2025 MHY & WCY · Love never ends</p>
+        </footer>
+    </main>
+
+    <canvas id="heartCanvas"></canvas>
+    <script src="assets/script.js"></script>
+</body>
+</html>
+
+
